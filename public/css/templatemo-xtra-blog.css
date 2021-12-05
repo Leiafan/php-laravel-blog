@@ -72,7 +72,7 @@ hr {
 
 .tm-row {
     max-width: 980px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .tm-nav { margin-bottom: 100px; }
