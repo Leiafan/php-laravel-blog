@@ -20,6 +20,7 @@ class CreateArticlesTable extends Migration
             $table->string('user_id');
             $table->text('text');
             $table->string('image')->nullable();
+            $table->integer('views')->default(0);
             $table->tinyInteger('is_approved')->default(0);
             $table->timestamps();
         });
